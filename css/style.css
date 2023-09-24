@@ -18,18 +18,20 @@ body {
     text-align: center;
   }
   .presentacion{
-  flex-direction: column;}
+  flex-direction: column;
+}
   .nombre{
     padding: 10px 0px;
   text-align: center;
-  justify-content: center;
+  justify-content: center;}
+  
   .descripcion-personal{
     padding: 10px 0px;
   text-align: center;
   justify-content: center;
   }
 }
-}
+
 
 header {
   display: flex;
