@@ -20,9 +20,14 @@ body {
   .presentacion{
   flex-direction: column;}
   .nombre{
-    padding: 10px 0px;;
+    padding: 10px 0px;
   text-align: center;
   justify-content: center;
+  .descripcion-personal{
+    padding: 10px 0px;
+  text-align: center;
+  justify-content: center;
+  }
 }
 }
 
