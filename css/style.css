@@ -1,10 +1,9 @@
-
 body {
   /* Todo la página */
   margin: 0;
   /* background-color: #000000; */
 }
-@media (max-width: 700px) {
+@media all and (max-width: 7680px) {
   header {
     flex-direction: column;
     font-size: 15px;
@@ -14,17 +13,6 @@ body {
     justify-content: center;
     text-align: center;
   }
-  .presentacion {
-    flex-direction: column;
-  }
-  .nombre {
-    text-align: center;
-    justify-content: center;
-  }.skills{
-    display: flex;
-    position: absolute;
-    bottom: -560px;
-    }
 }
 
 header {
@@ -34,6 +22,7 @@ header {
   padding: 0px 0px 0px 20px;
   position: sticky;
   top: 0px;
+  z-index: 1;
   background-color: rgb(0, 190, 255);
 }
 header a {
@@ -67,43 +56,52 @@ a.logo {
 
 .presentacion {
   display: flex;
+  flex-wrap: wrap;
   height: 100vh;
-}
-.saludo{
-  display: flex;
-  font-size: 100px;
-  text-align: center;
+  align-items: center;
   justify-content: center;
-  min-width: 40%;
-  }
+  background-color: #2b2b2b;
+}
+
 .nombre {
-  display: flex;
-  flex-direction: column;
-  font-size: 60px;
-  color: black;
-  justify-content: center;
+  background-color: aqua;
+  width: 50%;
+}
+.nombre h2 {
+  position: absolute;
+  top:10%;
+  left: 4%;
   text-align: center;
-  min-width: 40%;
+  width: 570px;
+  color: white;
+  font-size: 4rem;
+}
+.informacion-personal {
+  position: absolute;
+  font-size: 25px;
+  color: white;
+  top: 60%;
+  left: 1%;
+  width: 45rem;
+}
+.foto-personal{
+
 }
 
-
-
-.descripcion-personal {
-  display: flex;
-  flex-direction: column;
-  color: black;
-  bottom: 100px;
-  font-size: 20px;
-  justify-content: center;
-  text-align: center;
-  min-width: 30%;
+.botonCV{
+position: absolute;
+bottom: 20px;
+left: 20px;
+border: solid black 1px;
+border-radius: 20px;
+height: 50px;
+width: 240px;
+text-align: center;
+justify-content: center;
+background-color: rgb(0, 190, 255);;
 }
-/* .descripcion-p {
-  text-align: start;
-  font-size: 20px;
-  justify-content: center;
-  min-width: 40%;
-}  */
-
-
-
+.botonCV a{
+text-decoration: none;
+font-size: 30px;
+color: white;
+}
