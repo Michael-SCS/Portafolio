@@ -21,7 +21,7 @@ a {
   text-decoration: none;
 }
 nav {
-  background: color #28282a;;
+  background-color: #28282a;
   position: sticky;
   top: 0;
   z-index: 400;
@@ -72,7 +72,7 @@ nav {
 .btn:hover {
   background-color: #01268a;
 }
-.container{
+.container {
   max-width: 1200px;
   margin: auto;
   padding: 5rem 2rem;
@@ -82,7 +82,7 @@ nav {
   box-shadow: 0 0 1000px 50px #fff;
   z-index: -100;
 } */
-header{
+header {
   position: relative;
   padding-top: 2rem;
   display: grid;
@@ -91,57 +91,57 @@ header{
   gap: 2rem;
 }
 
-header .content h1{
+header .content h1 {
   color: #ffffff;
   margin-bottom: 1rem;
   font-size: 3rem;
   font-weight: 700;
   line-height: 4rem;
 }
-header .content h1 span{
-  -webkit-text-fill-color:transparent ;
+header .content h1 span {
+  -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 1px #fff;
 }
-header .content p{
-margin-bottom: 2rem;
-color: #ccc;
+header .content p {
+  margin-bottom: 2rem;
+  color: #ccc;
 }
 
-header .image{
-position: relative;
+header .image {
+  position: relative;
 }
-header .image::before{
-content: "o";
-position: absolute;
-top: 0px;
-left: 50%;
-transform: translateX(-50%);
-font-size: 30rem;
-font-weight: 400;
-line-height: 20rem;
-color: #1d4fd7;
-z-index: -100;
-opacity: 0.2;
+header .image::before {
+  content: "o";
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 30rem;
+  font-weight: 400;
+  line-height: 20rem;
+  color: #1d4fd7;
+  z-index: -100;
+  opacity: 0.2;
 }
 
-header .image img{
+header .image img {
   max-width: 600px;
   margin: auto;
 }
 
-@media (width < 900px){
-  .nav-links{
-  display: none;
+@media (width < 900px) {
+  .nav-links {
+    display: none;
   }
-  header{
+  header {
     grid-template-columns: repeat(1, 1fr);
   }
-  header .image{
+  header .image {
     grid-area: 1/1/2/2;
   }
 }
-@media (width < 600px){
-header .image::before{
+@media (width < 600px) {
+  header .image::before {
     display: none;
   }
 }
