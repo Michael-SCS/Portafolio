@@ -2,7 +2,7 @@ nav {
     background-color: #28282a;
     position: sticky;
     top: 0;
-    z-index: 400;
+    z-index: 100;
     max-width: 1150px;
     margin: auto;
     padding: 1rem;
@@ -30,7 +30,7 @@ nav {
     position: absolute;
     height: 3px;
     width: 0px;
-    bottom: 10px;
+    bottom: 12px;
     left: 0px;
     background-color: #1d4ed8;
     transition: all 0.5s ease;
@@ -49,7 +49,9 @@ nav {
     transition: all 0.3s ease;
   }
   .btn:hover {
-    background-color: #01268a;
+    background-color: #ffffff;
+    color: #1d4ed8;
+    font-weight: 500;
   }
 
     /* Esconder */
