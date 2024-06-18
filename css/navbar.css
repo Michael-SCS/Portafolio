@@ -1,14 +1,12 @@
 nav {
-    background-color: #f5f5fa;
-    position: fixed;
-    top: 0;
-    z-index: 100;
-    width: 100%;
-    padding: 1rem;
+  position: sticky;
+  top: 0;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    opacity: 0.9;
+    justify-content: center;
+    background-color: aliceblue;
+    height: 80px;
+    /* background-color: transparent; */
   }
   a {
     text-decoration: none;
@@ -24,13 +22,15 @@ nav {
     position: relative;
     padding-bottom: 0.75rem;
     color: #000000;
+    font-weight: 600;
+    font-size: 17px;
   }
   .link a::after {
     content: "";
     position: absolute;
     height: 3px;
     width: 0px;
-    bottom: 12px;
+    bottom: 8px;
     left: 0px;
     background-color: #1d4ed8;
     transition: all 0.5s ease;
@@ -39,30 +39,4 @@ nav {
   .link a:hover::after {
     width: 100%;
   }
-  .btn {
-    padding: 1rem 2rem;
-    font-size: 1rem;
-    color: #fff;
-    background-color: #1d4fd7;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-  }
-  .btn:hover {
-    background-color: #ffffff;
-    color: #1d4ed8;
-    font-weight: 500;
-  }
-
-    /* Esconder */
-  /* @media (width < 900px) {
-    .nav-links {
-      display: none;
-    }
-    main {
-      grid-template-columns: repeat(1, 1fr);
-    }
-    main .image {
-      grid-area: 1/1/2/2;
-    }
-  } */
+  
