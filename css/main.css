@@ -35,21 +35,21 @@ body {
     width: auto;
     height: auto;
   }
-  .btn {
+  button {
     padding: 1rem 2rem;
     font-size: 1rem;
     color: #fff;
     background-color: #1d4fd7;
     border-radius: 5px;
+    font-weight: bold;
     cursor: pointer;
     transition: all 0.3s ease;
   }
-  .btn:hover {
+  button:hover {
     background-color: #f5f5fa;
     color: #000000;
-    font-weight: 500;
   }
 
-  .btn{
+  button{
     margin-top: 20px;
 }
