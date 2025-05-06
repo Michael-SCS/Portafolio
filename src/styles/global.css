@@ -11,3 +11,8 @@
     min-height: 100vh;
     background-color: #f9f9f9;
   }
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    src: url();
+  }

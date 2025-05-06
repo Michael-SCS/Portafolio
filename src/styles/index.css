@@ -1,0 +1,43 @@
+section .inicio{
+    display: flex;
+    flex-direction: column;
+}
+.container-inicio{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fG1vYmlsZXxlbnwwfHx8fDE2ODQ5NTY3MjA&ixlib=rb-4.0.3&q=80&w=1080');
+
+}
+.container-inicio h1{
+
+    font-size: 2rem;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.container-inicio a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    margin-top: 1rem;
+    border: 1px solid #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.container-inicio a:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
